@@ -18,16 +18,16 @@ body {
 
 .homepage {
     /* uiterlijk */
-    background-color: #27374D40;
+    background-color: #125cc540;
     padding: 10px;
     border-radius: 15px;
     /* size */
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 620px;
     /* positie */
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 h1 {
@@ -44,6 +44,13 @@ h1 {
     transition: 0.05s;
     /* uiterlijk */
     border-radius: 15px;
+}
+
+.hoverable-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 .hoverable-img:hover {

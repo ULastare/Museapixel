@@ -1,4 +1,11 @@
 body {
+    /* tekst */
+    text-align: center;
+    font-family: Arial;
+    /* page */
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
     /* background */
     background-image: url("../Plaatjes/background2.png");
     background-size: 100% auto;
@@ -10,6 +17,8 @@ body {
     margin-bottom: 50px;
 }
 
+
+
 .ons-team {
     text-align: center;
 }
@@ -18,21 +27,19 @@ body {
     font-size: 50px;
 }
 
-.entireMemberPage {
-    width: 900px;
-    /* align */
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-} */
+
 
 .member {
-    background-color: #27374D40;
-    display: flex;
-    gap: 100px;
     align-items: center;
     justify-content: center;
+    display: flex;
+    gap: 100px;
     min-height: 300px;
+    margin-bottom: 15px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
 }
 
 .member img {
@@ -50,19 +57,28 @@ body {
 .gio,
 .fabio {
     flex-direction: row;
+    background-color: #125cc540;
 }
 
 .bing,
 .bouk {
     flex-direction: row-reverse;
+    background-color: #3b70b940;
 }
 
+
 .homeButton {
-    background-color: #36598a40;
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #125cc540;
+    font-size: 50px;
+    color: #DDE6ED;
+    text-decoration: none;
+    width: 500px;
+    transition: 0.05s;
+        margin-top: 30px;
+}
+
+.homeButton:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 106, 255, 0.251);
+    color: #2577b6;
 }

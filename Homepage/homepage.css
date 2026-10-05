@@ -4,6 +4,7 @@ body {
     font-family: Arial;
     /* page */
     margin: 0;
+    margin-bottom: 50px;
     padding: 10px;
     box-sizing: border-box;
     /* color */

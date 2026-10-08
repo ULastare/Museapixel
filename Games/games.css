@@ -1,0 +1,34 @@
+.body {
+}
+.games {
+    text-align: center;
+    font-family: Arial;
+}
+.gamesMain img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.3s ease;
+        border-radius: 15px;
+    
+}
+.gamesMain img:hover {
+    transform: scale(1.10);
+}
+
+.gamesMain {
+    font-family: Arial;
+    background-color: #125cc540;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 380px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.gamesMain h2 {
+    margin-top: 10px;
+}
